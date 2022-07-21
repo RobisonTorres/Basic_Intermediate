@@ -17,7 +17,7 @@ If all three conditions above are fulfilled, return a positive integer, otherwis
 
 def bouncing_ball(h, bounce, window):
 
-    # This function determines how many the ball will pass.
+    # This function determines how many times the ball will pass in front of the window.
     if h > 0 and 0 < bounce < 1 and window < h:
         result = 1
         while h > window:
